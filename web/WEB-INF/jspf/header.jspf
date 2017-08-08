@@ -1,0 +1,27 @@
+<%-- any content can be specified here e.g.: --%>
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" type="text/css" href="css/affablebean.css">
+        <title>School Administration Page</title>
+    </head>
+    <body>
+        <div id="main">
+            <div id="header">
+                <div class="navigationBar">
+                    <ul>
+                        <li><a href="index.jsp" >Home</a></li>
+                        <li><a href="teachers">Teachers</a></li>
+                        <li><a href="students">Students</a></li>
+                        <li><a href="courses">Courses</a></li>
+                    </ul>
+                </div>
+
+                <a href="#">
+                    <img src="img/Uottawacoa.svg.png" id="logo" alt="School Staff Logo">
+                </a>
+                <h1 id ='logoText'>Administrator Page</h1>
+            </div>
+        </div>
